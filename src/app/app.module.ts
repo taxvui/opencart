@@ -21,6 +21,7 @@ import { Cart2cartComponent } from './cms/cart2cart/cart2cart.component';
 import { SupportComponent } from './support/support/support.component';
 import { AdvertiseComponent } from './support/advertise/advertise.component';
 import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component';
+import { LandingComponent } from './cloud/landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.compone
     Cart2cartComponent,
     SupportComponent,
     AdvertiseComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
