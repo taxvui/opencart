@@ -7,11 +7,14 @@ import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.compone
 import { DemoComponent } from './cms/demo/demo.component';
 import { FeatureComponent } from './cms/feature/feature.component';
 import { LandingComponent } from './cloud/landing/landing.component';
+import { ExtensionComponent } from './marketplace/extension/extension.component';
+
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'cms/demo', component: DemoComponent },
   { path: 'cms/feature', component: FeatureComponent },
   { path: 'cloud/landing', component: LandingComponent },
+  { path: 'marketplace/extension', component: ExtensionComponent },
   { path: '**', component: PagenotfoundComponent }
 ];
 
